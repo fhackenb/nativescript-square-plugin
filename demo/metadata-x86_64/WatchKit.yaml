@@ -1,0 +1,3157 @@
+---
+Module:          
+  FullName:        WatchKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         WatchKit
+      IsFramework:     true
+Items:           
+  - Name:            UIUserNotificationActionResponseTypedTextKey
+    JsName:          UIUserNotificationActionResponseTypedTextKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            WKAccessibilityImageRegion
+    JsName:          WKAccessibilityImageRegion
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceObject
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            frame
+        JsName:          frame
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            frame
+          JsName:          frame
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceObject
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGRect
+        Setter:          
+          Name:            'setFrame:'
+          JsName:          setFrame
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceObject
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGRect
+      - Name:            label
+        JsName:          label
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            label
+          JsName:          label
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceObject
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setLabel:'
+          JsName:          setLabel
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceObject
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            WKAlertControllerStyleActionSheet
+    JsName:          WKAlertControllerStyleActionSheet
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            WKAlertControllerStyleAlert
+    JsName:          WKAlertControllerStyleAlert
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKAlertControllerStyleSideBySideButtonsAlert
+    JsName:          WKAlertControllerStyleSideBySideButtonsAlert
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKAudioRecorderPresetHighQualityAudio
+    JsName:          WKAudioRecorderPresetHighQualityAudio
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            WKAudioRecorderPresetNarrowBandSpeech
+    JsName:          WKAudioRecorderPresetNarrowBandSpeech
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKAudioRecorderPresetWideBandSpeech
+    JsName:          WKAudioRecorderPresetWideBandSpeech
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKHapticTypeClick
+    JsName:          WKHapticTypeClick
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            WKHapticTypeDirectionDown
+    JsName:          WKHapticTypeDirectionDown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            WKHapticTypeDirectionUp
+    JsName:          WKHapticTypeDirectionUp
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKHapticTypeFailure
+    JsName:          WKHapticTypeFailure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            WKHapticTypeNotification
+    JsName:          WKHapticTypeNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKHapticTypeRetry
+    JsName:          WKHapticTypeRetry
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            WKHapticTypeStart
+    JsName:          WKHapticTypeStart
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            WKHapticTypeStop
+    JsName:          WKHapticTypeStop
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            WKHapticTypeSuccess
+    JsName:          WKHapticTypeSuccess
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            WKImageAnimatable
+    JsName:          WKImageAnimatable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceImage.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceImage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            startAnimating
+        JsName:          startAnimating
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceImage.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceImage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'startAnimatingWithImagesInRange:duration:repeatCount:'
+        JsName:          startAnimatingWithImagesInRangeDurationRepeatCount
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceImage.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceImage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          Foundation.NSRange
+            JsName:          NSRange
+          - Type:            Double
+          - Type:            Long
+      - Name:            stopAnimating
+        JsName:          stopAnimating
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceImage.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceImage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            WKInterfaceButton
+    JsName:          WKInterfaceButton
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceButton.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setAttributedTitle:'
+        JsName:          setAttributedTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceButton.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSAttributedString
+            WithProtocols:   
+      - Name:            'setBackgroundColor:'
+        JsName:          setBackgroundColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceButton.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+      - Name:            'setBackgroundImage:'
+        JsName:          setBackgroundImage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceButton.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIImage
+            WithProtocols:   
+      - Name:            'setBackgroundImageData:'
+        JsName:          setBackgroundImageData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceButton.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+      - Name:            'setBackgroundImageNamed:'
+        JsName:          setBackgroundImageNamed
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceButton.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setEnabled:'
+        JsName:          setEnabled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceButton.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+      - Name:            'setTitle:'
+        JsName:          setTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceButton.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            WKInterfaceObject
+  - Name:            WKInterfaceController
+    JsName:          WKInterfaceController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addMenuItemWithImageNamed:title:action:'
+        JsName:          addMenuItemWithImageNamedTitleAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Selector
+      - Name:            'addMenuItemWithImage:title:action:'
+        JsName:          addMenuItemWithImageTitleAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIImage
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Selector
+      - Name:            'addMenuItemWithItemIcon:title:action:'
+        JsName:          addMenuItemWithItemIconTitleAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Enum
+            Name:            WKMenuItemIcon
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Selector
+      - Name:            'awakeWithContext:'
+        JsName:          awakeWithContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Id
+            WithProtocols:   
+      - Name:            becomeCurrentPage
+        JsName:          becomeCurrentPage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            clearAllMenuItems
+        JsName:          clearAllMenuItems
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'contextForSegueWithIdentifier:'
+        JsName:          contextForSegueWithIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'contextForSegueWithIdentifier:inTable:rowIndex:'
+        JsName:          contextForSegueWithIdentifierInTableRowIndex
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          WKInterfaceTable
+            WithProtocols:   
+          - Type:            Long
+      - Name:            'contextsForSegueWithIdentifier:'
+        JsName:          contextsForSegueWithIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'contextsForSegueWithIdentifier:inTable:rowIndex:'
+        JsName:          contextsForSegueWithIdentifierInTableRowIndex
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          WKInterfaceTable
+            WithProtocols:   
+          - Type:            Long
+      - Name:            didDeactivate
+        JsName:          didDeactivate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            dismissController
+        JsName:          dismissController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            dismissTextInputController
+        JsName:          dismissTextInputController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'handleActionWithIdentifier:forLocalNotification:'
+        JsName:          handleActionWithIdentifierForLocalNotification
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          UILocalNotification
+            WithProtocols:   
+      - Name:            'handleActionWithIdentifier:forNotification:'
+        JsName:          handleActionWithIdentifierForNotification
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          UNNotification
+            WithProtocols:   
+      - Name:            'handleActionWithIdentifier:forRemoteNotification:'
+        JsName:          handleActionWithIdentifierForRemoteNotification
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+      - Name:            'handleUserActivity:'
+        JsName:          handleUserActivity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+      - Name:            invalidateUserActivity
+        JsName:          invalidateUserActivity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            popController
+        JsName:          popController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            popToRootController
+        JsName:          popToRootController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'presentControllerWithName:context:'
+        JsName:          presentControllerWithNameContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+      - Name:            'presentControllerWithNames:contexts:'
+        JsName:          presentControllerWithNamesContexts
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            WithProtocols:   
+      - Name:            'presentTextInputControllerWithSuggestions:allowedInputMode:completion:'
+        JsName:          presentTextInputControllerWithSuggestionsAllowedInputModeCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Enum
+            Name:            WKTextInputMode
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSArray
+                WithProtocols:   
+      - Name:            'presentTextInputControllerWithSuggestionsForLanguage:allowedInputMode:completion:'
+        JsName:          presentTextInputControllerWithSuggestionsForLanguageAllowedInputModeCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Interface
+                JsName:          NSArray
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+          - Type:            Enum
+            Name:            WKTextInputMode
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSArray
+                WithProtocols:   
+      - Name:            'pushControllerWithName:context:'
+        JsName:          pushControllerWithNameContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+      - Name:            'setTitle:'
+        JsName:          setTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'table:didSelectRowAtIndex:'
+        JsName:          tableDidSelectRowAtIndex
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WKInterfaceTable
+            WithProtocols:   
+          - Type:            Long
+      - Name:            'updateUserActivity:userInfo:webpageURL:'
+        JsName:          updateUserActivityUserInfoWebpageURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+      - Name:            willActivate
+        JsName:          willActivate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+      - Name:            'openParentApplication:reply:'
+        JsName:          openParentApplicationReply
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSDictionary
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'reloadRootControllersWithNames:contexts:'
+        JsName:          reloadRootControllersWithNamesContexts
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            contentFrame
+        JsName:          contentFrame
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            contentFrame
+          JsName:          contentFrame
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGRect
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            WKInterfaceDate
+    JsName:          WKInterfaceDate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDate.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDate
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setCalendar:'
+        JsName:          setCalendar
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDate.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDate
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSCalendar
+            WithProtocols:   
+      - Name:            'setTextColor:'
+        JsName:          setTextColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDate.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDate
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+      - Name:            'setTimeZone:'
+        JsName:          setTimeZone
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDate.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDate
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSTimeZone
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            WKInterfaceObject
+  - Name:            WKInterfaceDevice
+    JsName:          WKInterfaceDevice
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addCachedImage:name:'
+        JsName:          addCachedImageName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          UIImage
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'addCachedImageWithData:name:'
+        JsName:          addCachedImageWithDataName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            removeAllCachedImages
+        JsName:          removeAllCachedImages
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'removeCachedImageWithName:'
+        JsName:          removeCachedImageWithName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            currentDevice
+        JsName:          currentDevice
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          WKInterfaceDevice
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            cachedImages
+        JsName:          cachedImages
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cachedImages
+          JsName:          cachedImages
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceDevice
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.2
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          NSNumber
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            localizedModel
+        JsName:          localizedModel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            localizedModel
+          JsName:          localizedModel
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceDevice
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    9.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            model
+        JsName:          model
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            model
+          JsName:          model
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceDevice
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    9.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            name
+        JsName:          name
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            name
+          JsName:          name
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceDevice
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    9.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            preferredContentSizeCategory
+        JsName:          preferredContentSizeCategory
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            preferredContentSizeCategory
+          JsName:          preferredContentSizeCategory
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceDevice
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            screenBounds
+        JsName:          screenBounds
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            screenBounds
+          JsName:          screenBounds
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceDevice
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGRect
+      - Name:            screenScale
+        JsName:          screenScale
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            screenScale
+          JsName:          screenScale
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceDevice
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            systemName
+        JsName:          systemName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            systemName
+          JsName:          systemName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceDevice
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    9.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            systemVersion
+        JsName:          systemVersion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            systemVersion
+          JsName:          systemVersion
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceDevice
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    9.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            WKInterfaceDeviceCrownOrientationLeft
+    JsName:          WKInterfaceDeviceCrownOrientationLeft
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKInterfaceDeviceCrownOrientationRight
+    JsName:          WKInterfaceDeviceCrownOrientationRight
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKInterfaceDeviceWristLocationLeft
+    JsName:          WKInterfaceDeviceWristLocationLeft
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKInterfaceDeviceWristLocationRight
+    JsName:          WKInterfaceDeviceWristLocationRight
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKInterfaceGroup
+    JsName:          WKInterfaceGroup
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceGroup.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceGroup
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setBackgroundColor:'
+        JsName:          setBackgroundColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceGroup.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+      - Name:            'setBackgroundImage:'
+        JsName:          setBackgroundImage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceGroup.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIImage
+            WithProtocols:   
+      - Name:            'setBackgroundImageData:'
+        JsName:          setBackgroundImageData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceGroup.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+      - Name:            'setBackgroundImageNamed:'
+        JsName:          setBackgroundImageNamed
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceGroup.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setCornerRadius:'
+        JsName:          setCornerRadius
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceGroup.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Double
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - WKImageAnimatable
+    Base:            WKInterfaceObject
+  - Name:            WKInterfaceImage
+    JsName:          WKInterfaceImage
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceImage.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceImage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setImage:'
+        JsName:          setImage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceImage.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceImage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIImage
+            WithProtocols:   
+      - Name:            'setImageData:'
+        JsName:          setImageData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceImage.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceImage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+      - Name:            'setImageNamed:'
+        JsName:          setImageNamed
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceImage.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceImage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setTintColor:'
+        JsName:          setTintColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceImage.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceImage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - WKImageAnimatable
+    Base:            WKInterfaceObject
+  - Name:            WKInterfaceLabel
+    JsName:          WKInterfaceLabel
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceLabel.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceLabel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setAttributedText:'
+        JsName:          setAttributedText
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceLabel.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceLabel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSAttributedString
+            WithProtocols:   
+      - Name:            'setText:'
+        JsName:          setText
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceLabel.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceLabel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setTextColor:'
+        JsName:          setTextColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceLabel.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceLabel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            WKInterfaceObject
+  - Name:            WKInterfaceLayoutDirectionLeftToRight
+    JsName:          WKInterfaceLayoutDirectionLeftToRight
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKInterfaceLayoutDirectionRightToLeft
+    JsName:          WKInterfaceLayoutDirectionRightToLeft
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKInterfaceMap
+    JsName:          WKInterfaceMap
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceMap.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceMap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addAnnotation:withImage:centerOffset:'
+        JsName:          addAnnotationWithImageCenterOffset
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceMap.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceMap
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          CoreLocation.CLLocation
+            JsName:          CLLocationCoordinate2D
+          - Type:            Interface
+            JsName:          UIImage
+            WithProtocols:   
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGPoint
+      - Name:            'addAnnotation:withImageNamed:centerOffset:'
+        JsName:          addAnnotationWithImageNamedCenterOffset
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceMap.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceMap
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          CoreLocation.CLLocation
+            JsName:          CLLocationCoordinate2D
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGPoint
+      - Name:            'addAnnotation:withPinColor:'
+        JsName:          addAnnotationWithPinColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceMap.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceMap
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          CoreLocation.CLLocation
+            JsName:          CLLocationCoordinate2D
+          - Type:            Enum
+            Name:            WKInterfaceMapPinColor
+      - Name:            removeAllAnnotations
+        JsName:          removeAllAnnotations
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceMap.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceMap
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'setRegion:'
+        JsName:          setRegion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceMap.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceMap
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          MapKit.MKGeometry
+            JsName:          MKCoordinateRegion
+      - Name:            'setVisibleMapRect:'
+        JsName:          setVisibleMapRect
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceMap.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceMap
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          MapKit.MKGeometry
+            JsName:          MKMapRect
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            WKInterfaceObject
+  - Name:            WKInterfaceMapPinColor
+    JsName:          WKInterfaceMapPinColor
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceMap.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceMap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - WKInterfaceMapPinColorRed: '0'
+      - WKInterfaceMapPinColorGreen: '1'
+      - WKInterfaceMapPinColorPurple: '2'
+    SwiftNameFields: 
+      - Red:             '0'
+      - Green:           '1'
+      - Purple:          '2'
+  - Name:            WKInterfaceMapPinColorGreen
+    JsName:          WKInterfaceMapPinColorGreen
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceMap.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceMap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKInterfaceMapPinColorPurple
+    JsName:          WKInterfaceMapPinColorPurple
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceMap.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceMap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            WKInterfaceMapPinColorRed
+    JsName:          WKInterfaceMapPinColorRed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceMap.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceMap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKInterfaceObject
+    JsName:          WKInterfaceObject
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceObject
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setAlpha:'
+        JsName:          setAlpha
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Double
+      - Name:            'setHeight:'
+        JsName:          setHeight
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Double
+      - Name:            'setHidden:'
+        JsName:          setHidden
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+      - Name:            'setWidth:'
+        JsName:          setWidth
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Double
+      - Name:            'setAccessibilityHint:'
+        JsName:          setAccessibilityHint
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setAccessibilityIdentifier:'
+        JsName:          setAccessibilityIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setAccessibilityImageRegions:'
+        JsName:          setAccessibilityImageRegions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          WKAccessibilityImageRegion
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'setAccessibilityLabel:'
+        JsName:          setAccessibilityLabel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setAccessibilityTraits:'
+        JsName:          setAccessibilityTraits
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            ULongLong
+      - Name:            'setAccessibilityValue:'
+        JsName:          setAccessibilityValue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setIsAccessibilityElement:'
+        JsName:          setIsAccessibilityElement
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            interfaceProperty
+        JsName:          interfaceProperty
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            interfaceProperty
+          JsName:          interfaceProperty
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceObject
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            WKInterfaceObjectHorizontalAlignmentCenter
+    JsName:          WKInterfaceObjectHorizontalAlignmentCenter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceObject
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKInterfaceObjectHorizontalAlignmentLeft
+    JsName:          WKInterfaceObjectHorizontalAlignmentLeft
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceObject
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKInterfaceObjectHorizontalAlignmentRight
+    JsName:          WKInterfaceObjectHorizontalAlignmentRight
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceObject
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            WKInterfaceObjectVerticalAlignmentBottom
+    JsName:          WKInterfaceObjectVerticalAlignmentBottom
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceObject
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            WKInterfaceObjectVerticalAlignmentCenter
+    JsName:          WKInterfaceObjectVerticalAlignmentCenter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceObject
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKInterfaceObjectVerticalAlignmentTop
+    JsName:          WKInterfaceObjectVerticalAlignmentTop
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceObject.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceObject
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKInterfaceSemanticContentAttributeForceLeftToRight
+    JsName:          WKInterfaceSemanticContentAttributeForceLeftToRight
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            WKInterfaceSemanticContentAttributeForceRightToLeft
+    JsName:          WKInterfaceSemanticContentAttributeForceRightToLeft
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            WKInterfaceSemanticContentAttributePlayback
+    JsName:          WKInterfaceSemanticContentAttributePlayback
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKInterfaceSemanticContentAttributeSpatial
+    JsName:          WKInterfaceSemanticContentAttributeSpatial
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            WKInterfaceSemanticContentAttributeUnspecified
+    JsName:          WKInterfaceSemanticContentAttributeUnspecified
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceDevice.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKInterfaceSeparator
+    JsName:          WKInterfaceSeparator
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSeparator.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceSeparator
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setColor:'
+        JsName:          setColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSeparator.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceSeparator
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            WKInterfaceObject
+  - Name:            WKInterfaceSlider
+    JsName:          WKInterfaceSlider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSlider.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceSlider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setColor:'
+        JsName:          setColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSlider.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceSlider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+      - Name:            'setEnabled:'
+        JsName:          setEnabled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSlider.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceSlider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+      - Name:            'setNumberOfSteps:'
+        JsName:          setNumberOfSteps
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSlider.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceSlider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Long
+      - Name:            'setValue:'
+        JsName:          setValue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSlider.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceSlider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Float
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            WKInterfaceObject
+  - Name:            WKInterfaceSwitch
+    JsName:          WKInterfaceSwitch
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSwitch.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceSwitch
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setAttributedTitle:'
+        JsName:          setAttributedTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSwitch.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceSwitch
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSAttributedString
+            WithProtocols:   
+      - Name:            'setColor:'
+        JsName:          setColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSwitch.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceSwitch
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+      - Name:            'setEnabled:'
+        JsName:          setEnabled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSwitch.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceSwitch
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+      - Name:            'setOn:'
+        JsName:          setOn
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSwitch.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceSwitch
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+      - Name:            'setTitle:'
+        JsName:          setTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceSwitch.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceSwitch
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            WKInterfaceObject
+  - Name:            WKInterfaceTable
+    JsName:          WKInterfaceTable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTable.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceTable
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'insertRowsAtIndexes:withRowType:'
+        JsName:          insertRowsAtIndexesWithRowType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTable.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceTable
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSIndexSet
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'removeRowsAtIndexes:'
+        JsName:          removeRowsAtIndexes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTable.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceTable
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSIndexSet
+            WithProtocols:   
+      - Name:            'rowControllerAtIndex:'
+        JsName:          rowControllerAtIndex
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTable.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceTable
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+          - Type:            Long
+      - Name:            'scrollToRowAtIndex:'
+        JsName:          scrollToRowAtIndex
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTable.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceTable
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Long
+      - Name:            'setNumberOfRows:withRowType:'
+        JsName:          setNumberOfRowsWithRowType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTable.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceTable
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Long
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setRowTypes:'
+        JsName:          setRowTypes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTable.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceTable
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            numberOfRows
+        JsName:          numberOfRows
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTable.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceTable
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            numberOfRows
+          JsName:          numberOfRows
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTable.h
+          Module:          
+            FullName:        WatchKit.WKInterfaceTable
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Long
+    StaticProperties: 
+    Protocols:       
+    Base:            WKInterfaceObject
+  - Name:            WKInterfaceTimer
+    JsName:          WKInterfaceTimer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTimer.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceTimer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setDate:'
+        JsName:          setDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTimer.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceTimer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+      - Name:            'setTextColor:'
+        JsName:          setTextColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTimer.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceTimer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+      - Name:            start
+        JsName:          start
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTimer.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceTimer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            stop
+        JsName:          stop
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceTimer.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceTimer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            WKInterfaceObject
+  - Name:            WKMenuItemIcon
+    JsName:          WKMenuItemIcon
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - WKMenuItemIconAccept: '0'
+      - WKMenuItemIconAdd: '1'
+      - WKMenuItemIconBlock: '2'
+      - WKMenuItemIconDecline: '3'
+      - WKMenuItemIconInfo: '4'
+      - WKMenuItemIconMaybe: '5'
+      - WKMenuItemIconMore: '6'
+      - WKMenuItemIconMute: '7'
+      - WKMenuItemIconPause: '8'
+      - WKMenuItemIconPlay: '9'
+      - WKMenuItemIconRepeat: '10'
+      - WKMenuItemIconResume: '11'
+      - WKMenuItemIconShare: '12'
+      - WKMenuItemIconShuffle: '13'
+      - WKMenuItemIconSpeaker: '14'
+      - WKMenuItemIconTrash: '15'
+    SwiftNameFields: 
+      - Accept:          '0'
+      - Add:             '1'
+      - Block:           '2'
+      - Decline:         '3'
+      - Info:            '4'
+      - Maybe:           '5'
+      - More:            '6'
+      - Mute:            '7'
+      - Pause:           '8'
+      - Play:            '9'
+      - Repeat:          '10'
+      - Resume:          '11'
+      - Share:           '12'
+      - Shuffle:         '13'
+      - Speaker:         '14'
+      - Trash:           '15'
+  - Name:            WKMenuItemIconAccept
+    JsName:          WKMenuItemIconAccept
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKMenuItemIconAdd
+    JsName:          WKMenuItemIconAdd
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKMenuItemIconBlock
+    JsName:          WKMenuItemIconBlock
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            WKMenuItemIconDecline
+    JsName:          WKMenuItemIconDecline
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            WKMenuItemIconInfo
+    JsName:          WKMenuItemIconInfo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            WKMenuItemIconMaybe
+    JsName:          WKMenuItemIconMaybe
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            WKMenuItemIconMore
+    JsName:          WKMenuItemIconMore
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            WKMenuItemIconMute
+    JsName:          WKMenuItemIconMute
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            WKMenuItemIconPause
+    JsName:          WKMenuItemIconPause
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            WKMenuItemIconPlay
+    JsName:          WKMenuItemIconPlay
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            WKMenuItemIconRepeat
+    JsName:          WKMenuItemIconRepeat
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            WKMenuItemIconResume
+    JsName:          WKMenuItemIconResume
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '11'
+  - Name:            WKMenuItemIconShare
+    JsName:          WKMenuItemIconShare
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '12'
+  - Name:            WKMenuItemIconShuffle
+    JsName:          WKMenuItemIconShuffle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '13'
+  - Name:            WKMenuItemIconSpeaker
+    JsName:          WKMenuItemIconSpeaker
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '14'
+  - Name:            WKMenuItemIconTrash
+    JsName:          WKMenuItemIconTrash
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '15'
+  - Name:            WKTextInputMode
+    JsName:          WKTextInputMode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - WKTextInputModePlain: '0'
+      - WKTextInputModeAllowEmoji: '1'
+      - WKTextInputModeAllowAnimatedEmoji: '2'
+    SwiftNameFields: 
+      - Plain:           '0'
+      - AllowEmoji:      '1'
+      - AllowAnimatedEmoji: '2'
+  - Name:            WKTextInputModeAllowAnimatedEmoji
+    JsName:          WKTextInputModeAllowAnimatedEmoji
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            WKTextInputModeAllowEmoji
+    JsName:          WKTextInputModeAllowEmoji
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKTextInputModePlain
+    JsName:          WKTextInputModePlain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKUserNotificationInterfaceController
+    JsName:          WKUserNotificationInterfaceController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'didReceiveLocalNotification:withCompletion:'
+        JsName:          didReceiveLocalNotificationWithCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UILocalNotification
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            WKUserNotificationInterfaceType
+      - Name:            'didReceiveNotification:withCompletion:'
+        JsName:          didReceiveNotificationWithCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UNNotification
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            WKUserNotificationInterfaceType
+      - Name:            'didReceiveRemoteNotification:withCompletion:'
+        JsName:          didReceiveRemoteNotificationWithCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+        Module:          
+          FullName:        WatchKit.WKInterfaceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            WKUserNotificationInterfaceType
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            WKInterfaceController
+  - Name:            WKUserNotificationInterfaceType
+    JsName:          WKUserNotificationInterfaceType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - WKUserNotificationInterfaceTypeDefault: '0'
+      - WKUserNotificationInterfaceTypeCustom: '1'
+    SwiftNameFields: 
+      - Default:         '0'
+      - Custom:          '1'
+  - Name:            WKUserNotificationInterfaceTypeCustom
+    JsName:          WKUserNotificationInterfaceTypeCustom
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WKUserNotificationInterfaceTypeDefault
+    JsName:          WKUserNotificationInterfaceTypeDefault
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKVideoGravityResize
+    JsName:          WKVideoGravityResize
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            WKVideoGravityResizeAspect
+    JsName:          WKVideoGravityResizeAspect
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WKVideoGravityResizeAspectFill
+    JsName:          WKVideoGravityResizeAspectFill
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h
+    Module:          
+      FullName:        WatchKit.WKInterfaceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WatchKitApplicationDelegateWatchKitRequestReplyNotCalledError
+    JsName:          WatchKitApplicationDelegateWatchKitRequestReplyNotCalledError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKError.h
+    Module:          
+      FullName:        WatchKit.WKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            WatchKitDownloadError
+    JsName:          WatchKitDownloadError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKError.h
+    Module:          
+      FullName:        WatchKit.WKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            WatchKitErrorCode
+    JsName:          WatchKitErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKError.h
+    Module:          
+      FullName:        WatchKit.WKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - WatchKitUnknownError: '1'
+      - WatchKitApplicationDelegateWatchKitRequestReplyNotCalledError: '2'
+      - WatchKitInvalidArgumentError: '3'
+      - WatchKitMediaPlayerError: '4'
+      - WatchKitDownloadError: '5'
+      - WatchKitRecordingFailedError: '6'
+    SwiftNameFields: 
+      - UnknownError:    '1'
+      - ApplicationDelegateWatchKitRequestReplyNotCalledError: '2'
+      - InvalidArgumentError: '3'
+      - MediaPlayerError: '4'
+      - DownloadError:   '5'
+      - RecordingFailedError: '6'
+  - Name:            WatchKitErrorDomain
+    JsName:          WatchKitErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKError.h
+    Module:          
+      FullName:        WatchKit.WKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            WatchKitInvalidArgumentError
+    JsName:          WatchKitInvalidArgumentError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKError.h
+    Module:          
+      FullName:        WatchKit.WKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            WatchKitMediaPlayerError
+    JsName:          WatchKitMediaPlayerError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKError.h
+    Module:          
+      FullName:        WatchKit.WKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            WatchKitRecordingFailedError
+    JsName:          WatchKitRecordingFailedError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKError.h
+    Module:          
+      FullName:        WatchKit.WKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            WatchKitUnknownError
+    JsName:          WatchKitUnknownError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKError.h
+    Module:          
+      FullName:        WatchKit.WKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+...

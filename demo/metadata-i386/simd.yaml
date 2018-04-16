@@ -1,0 +1,334 @@
+---
+Module:          
+  FullName:        simd
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+Items:           
+  - Name:            vector_clamp
+    JsName:          vector_clamp
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Float
+      - Type:            Float
+      - Type:            Float
+  - Name:            vector_clamp
+    JsName:          vector_clampFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Double
+      - Type:            Double
+      - Type:            Double
+  - Name:            vector_fast_recip
+    JsName:          vector_fast_recip
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Float
+  - Name:            vector_fast_recip
+    JsName:          vector_fast_recipFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Double
+  - Name:            vector_fast_rsqrt
+    JsName:          vector_fast_rsqrt
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Float
+  - Name:            vector_fast_rsqrt
+    JsName:          vector_fast_rsqrtFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Double
+  - Name:            vector_fract
+    JsName:          vector_fract
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Float
+  - Name:            vector_fract
+    JsName:          vector_fractFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Double
+  - Name:            vector_mix
+    JsName:          vector_mix
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Float
+      - Type:            Float
+      - Type:            Float
+  - Name:            vector_mix
+    JsName:          vector_mixFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Double
+      - Type:            Double
+      - Type:            Double
+  - Name:            vector_precise_recip
+    JsName:          vector_precise_recip
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Float
+  - Name:            vector_precise_recip
+    JsName:          vector_precise_recipFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Double
+  - Name:            vector_precise_rsqrt
+    JsName:          vector_precise_rsqrt
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Float
+  - Name:            vector_precise_rsqrt
+    JsName:          vector_precise_rsqrtFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Double
+  - Name:            vector_recip
+    JsName:          vector_recip
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Float
+  - Name:            vector_recip
+    JsName:          vector_recipFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Double
+  - Name:            vector_rsqrt
+    JsName:          vector_rsqrt
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Float
+  - Name:            vector_rsqrt
+    JsName:          vector_rsqrtFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Double
+  - Name:            vector_sign
+    JsName:          vector_sign
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Float
+  - Name:            vector_sign
+    JsName:          vector_signFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Double
+  - Name:            vector_smoothstep
+    JsName:          vector_smoothstep
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Float
+      - Type:            Float
+      - Type:            Float
+  - Name:            vector_smoothstep
+    JsName:          vector_smoothstepFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Double
+      - Type:            Double
+      - Type:            Double
+  - Name:            vector_step
+    JsName:          vector_step
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Float
+      - Type:            Float
+  - Name:            vector_step
+    JsName:          vector_stepFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/simd/common.h
+    Module:          
+      FullName:        simd.common
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Double
+      - Type:            Double
+...

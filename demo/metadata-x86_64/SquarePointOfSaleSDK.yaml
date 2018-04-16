@@ -1,0 +1,2069 @@
+---
+Module:          
+  FullName:        SquarePointOfSaleSDK
+  IsPartOfFramework: true
+  IsSystemModule:  false
+  Libraries:       
+    - Library:         SquarePointOfSaleSDK
+      IsFramework:     true
+Items:           
+  - Name:            NSArrayOfTenderTypeStringsFromSCCAPIRequestTenderTypes
+    JsName:          NSArrayOfTenderTypeStringsFromSCCAPIRequestTenderTypes
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSArray
+        TypeParameters:  
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+        WithProtocols:   
+      - Type:            Enum
+        Name:            SCCAPIRequestTenderTypes
+  - Name:            NSStringFromSCCAPIErrorCode
+    JsName:          NSStringFromSCCAPIErrorCode
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSString
+        WithProtocols:   
+      - Type:            Enum
+        Name:            SCCAPIErrorCode
+  - Name:            SCCAPIConnection
+    JsName:          SCCAPIConnection
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIConnection.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIConnection
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+      - Name:            'canPerformRequest:error:'
+        JsName:          canPerformRequestError
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIConnection.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIConnection
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          SCCAPIRequest
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'performRequest:error:'
+        JsName:          performRequestError
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIConnection.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIConnection
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          SCCAPIRequest
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            SCCAPIErrorCode
+    JsName:          SCCAPIErrorCode
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - SCCAPIErrorCodeUnknown: '0'
+      - SCCAPIErrorCodePaymentCanceled: '1'
+      - SCCAPIErrorCodePayloadMissingOrInvalid: '2'
+      - SCCAPIErrorCodeAppNotLoggedIn: '3'
+      - SCCAPIErrorCodeUnused: '4'
+      - SCCAPIErrorCodeMerchantIDMismatch: '5'
+      - SCCAPIErrorCodeUserNotActivated: '6'
+      - SCCAPIErrorCodeCurrencyMissingOrInvalid: '7'
+      - SCCAPIErrorCodeCurrencyUnsupported: '8'
+      - SCCAPIErrorCodeCurrencyMismatch: '9'
+      - SCCAPIErrorCodeAmountMissingOrInvalid: '10'
+      - SCCAPIErrorCodeAmountTooSmall: '11'
+      - SCCAPIErrorCodeAmountTooLarge: '12'
+      - SCCAPIErrorCodeInvalidTenderType: '13'
+      - SCCAPIErrorCodeUnsupportedTenderType: '14'
+      - SCCAPIErrorCodeCouldNotPerform: '15'
+      - SCCAPIErrorCodeNoNetworkConnection: '16'
+      - SCCAPIErrorCodeClientNotAuthorizedForUser: '17'
+      - SCCAPIErrorCodeUnsupportedAPIVersion: '18'
+      - SCCAPIErrorCodeInvalidVersionNumber: '19'
+      - SCCAPIErrorCodeCustomerManagementNotSupported: '20'
+      - SCCAPIErrorCodeInvalidCustomerID: '21'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - PaymentCanceled: '1'
+      - PayloadMissingOrInvalid: '2'
+      - AppNotLoggedIn:  '3'
+      - Unused:          '4'
+      - MerchantIDMismatch: '5'
+      - UserNotActivated: '6'
+      - CurrencyMissingOrInvalid: '7'
+      - CurrencyUnsupported: '8'
+      - CurrencyMismatch: '9'
+      - AmountMissingOrInvalid: '10'
+      - AmountTooSmall:  '11'
+      - AmountTooLarge:  '12'
+      - InvalidTenderType: '13'
+      - UnsupportedTenderType: '14'
+      - CouldNotPerform: '15'
+      - NoNetworkConnection: '16'
+      - ClientNotAuthorizedForUser: '17'
+      - UnsupportedAPIVersion: '18'
+      - InvalidVersionNumber: '19'
+      - CustomerManagementNotSupported: '20'
+      - InvalidCustomerID: '21'
+  - Name:            SCCAPIErrorCodeAmountMissingOrInvalid
+    JsName:          SCCAPIErrorCodeAmountMissingOrInvalid
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            SCCAPIErrorCodeAmountTooLarge
+    JsName:          SCCAPIErrorCodeAmountTooLarge
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '12'
+  - Name:            SCCAPIErrorCodeAmountTooSmall
+    JsName:          SCCAPIErrorCodeAmountTooSmall
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '11'
+  - Name:            SCCAPIErrorCodeAppNotLoggedIn
+    JsName:          SCCAPIErrorCodeAppNotLoggedIn
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            SCCAPIErrorCodeClientNotAuthorizedForUser
+    JsName:          SCCAPIErrorCodeClientNotAuthorizedForUser
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '17'
+  - Name:            SCCAPIErrorCodeCouldNotPerform
+    JsName:          SCCAPIErrorCodeCouldNotPerform
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '15'
+  - Name:            SCCAPIErrorCodeCurrencyMismatch
+    JsName:          SCCAPIErrorCodeCurrencyMismatch
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            SCCAPIErrorCodeCurrencyMissingOrInvalid
+    JsName:          SCCAPIErrorCodeCurrencyMissingOrInvalid
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            SCCAPIErrorCodeCurrencyUnsupported
+    JsName:          SCCAPIErrorCodeCurrencyUnsupported
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            SCCAPIErrorCodeCustomerManagementNotSupported
+    JsName:          SCCAPIErrorCodeCustomerManagementNotSupported
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '20'
+  - Name:            SCCAPIErrorCodeFromString
+    JsName:          SCCAPIErrorCodeFromString
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            SCCAPIErrorCode
+      - Type:            Interface
+        JsName:          NSString
+        WithProtocols:   
+  - Name:            SCCAPIErrorCodeInvalidCustomerID
+    JsName:          SCCAPIErrorCodeInvalidCustomerID
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '21'
+  - Name:            SCCAPIErrorCodeInvalidTenderType
+    JsName:          SCCAPIErrorCodeInvalidTenderType
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '13'
+  - Name:            SCCAPIErrorCodeInvalidVersionNumber
+    JsName:          SCCAPIErrorCodeInvalidVersionNumber
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '19'
+  - Name:            SCCAPIErrorCodeMerchantIDMismatch
+    JsName:          SCCAPIErrorCodeMerchantIDMismatch
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            SCCAPIErrorCodeNoNetworkConnection
+    JsName:          SCCAPIErrorCodeNoNetworkConnection
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            SCCAPIErrorCodePayloadMissingOrInvalid
+    JsName:          SCCAPIErrorCodePayloadMissingOrInvalid
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            SCCAPIErrorCodePaymentCanceled
+    JsName:          SCCAPIErrorCodePaymentCanceled
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            SCCAPIErrorCodeUnknown
+    JsName:          SCCAPIErrorCodeUnknown
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            SCCAPIErrorCodeUnsupportedAPIVersion
+    JsName:          SCCAPIErrorCodeUnsupportedAPIVersion
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '18'
+  - Name:            SCCAPIErrorCodeUnsupportedTenderType
+    JsName:          SCCAPIErrorCodeUnsupportedTenderType
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '14'
+  - Name:            SCCAPIErrorCodeUnused
+    JsName:          SCCAPIErrorCodeUnused
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            SCCAPIErrorCodeUserNotActivated
+    JsName:          SCCAPIErrorCodeUserNotActivated
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            SCCAPIErrorDomain
+    JsName:          SCCAPIErrorDomain
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringAmountMissingOrInvalid
+    JsName:          SCCAPIErrorStringAmountMissingOrInvalid
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringAmountTooLarge
+    JsName:          SCCAPIErrorStringAmountTooLarge
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringAmountTooSmall
+    JsName:          SCCAPIErrorStringAmountTooSmall
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringAppNotLoggedIn
+    JsName:          SCCAPIErrorStringAppNotLoggedIn
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringClientNotAuthorizedForUser
+    JsName:          SCCAPIErrorStringClientNotAuthorizedForUser
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringCouldNotPerform
+    JsName:          SCCAPIErrorStringCouldNotPerform
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringCurrencyMismatch
+    JsName:          SCCAPIErrorStringCurrencyMismatch
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringCurrencyMissingOrInvalid
+    JsName:          SCCAPIErrorStringCurrencyMissingOrInvalid
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringCurrencyUnsupported
+    JsName:          SCCAPIErrorStringCurrencyUnsupported
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringCustomerManagementNotSupported
+    JsName:          SCCAPIErrorStringCustomerManagementNotSupported
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringInvalidCustomerID
+    JsName:          SCCAPIErrorStringInvalidCustomerID
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringInvalidTenderType
+    JsName:          SCCAPIErrorStringInvalidTenderType
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringMerchantIDMismatch
+    JsName:          SCCAPIErrorStringMerchantIDMismatch
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringNoNetworkConnection
+    JsName:          SCCAPIErrorStringNoNetworkConnection
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringPayloadMissingOrInvalid
+    JsName:          SCCAPIErrorStringPayloadMissingOrInvalid
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringPaymentCanceled
+    JsName:          SCCAPIErrorStringPaymentCanceled
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringUnsupportedTenderType
+    JsName:          SCCAPIErrorStringUnsupportedTenderType
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorStringUserNotActivated
+    JsName:          SCCAPIErrorStringUserNotActivated
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPISerializationAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPISerializationAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIErrorUserInfoCodeStringKey
+    JsName:          SCCAPIErrorUserInfoCodeStringKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAPIAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAPIAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequest
+    JsName:          SCCAPIRequest
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'isEqualToAPIRequest:'
+        JsName:          isEqualToAPIRequest
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          SCCAPIRequest
+            WithProtocols:   
+      - Name:            'APIRequestURLWithError:'
+        JsName:          APIRequestURLWithError
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    StaticMethods:   
+      - Name:            'requestWithCallbackURL:amount:userInfoString:merchantID:notes:customerID:supportedTenderTypes:clearsDefaultFees:returnAutomaticallyAfterPayment:error:'
+        JsName:          requestWithCallbackURLAmountUserInfoStringMerchantIDNotesCustomerIDSupportedTenderTypesClearsDefaultFeesReturnAutomaticallyAfterPaymentError
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          SCCMoney
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Enum
+            Name:            SCCAPIRequestTenderTypes
+          - Type:            Bool
+          - Type:            Bool
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'setClientID:'
+        JsName:          setClientID
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            amount
+        JsName:          amount
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            amount
+          JsName:          amount
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          SCCMoney
+              WithProtocols:   
+      - Name:            callbackURL
+        JsName:          callbackURL
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            callbackURL
+          JsName:          callbackURL
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+      - Name:            clearsDefaultFees
+        JsName:          clearsDefaultFees
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            clearsDefaultFees
+          JsName:          clearsDefaultFees
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            clientID
+        JsName:          clientID
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            clientID
+          JsName:          clientID
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            customerID
+        JsName:          customerID
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            customerID
+          JsName:          customerID
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            merchantID
+        JsName:          merchantID
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            merchantID
+          JsName:          merchantID
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            notes
+        JsName:          notes
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            notes
+          JsName:          notes
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            returnsAutomaticallyAfterPayment
+        JsName:          returnsAutomaticallyAfterPayment
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            returnsAutomaticallyAfterPayment
+          JsName:          returnsAutomaticallyAfterPayment
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            supportedTenderTypes
+        JsName:          supportedTenderTypes
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportedTenderTypes
+          JsName:          supportedTenderTypes
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            SCCAPIRequestTenderTypes
+      - Name:            userInfoString
+        JsName:          userInfoString
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            userInfoString
+          JsName:          userInfoString
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            SCCAPIRequestAmountMoneyKey
+    JsName:          SCCAPIRequestAmountMoneyKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestCallbackURLKey
+    JsName:          SCCAPIRequestCallbackURLKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestClientIDKey
+    JsName:          SCCAPIRequestClientIDKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestCustomerIDKey
+    JsName:          SCCAPIRequestCustomerIDKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestMerchantIDKey
+    JsName:          SCCAPIRequestMerchantIDKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestNotesKey
+    JsName:          SCCAPIRequestNotesKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestOptionsAutoReturnKey
+    JsName:          SCCAPIRequestOptionsAutoReturnKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestOptionsClearDefaultFeesKey
+    JsName:          SCCAPIRequestOptionsClearDefaultFeesKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestOptionsKey
+    JsName:          SCCAPIRequestOptionsKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestOptionsSupportedTenderTypesKey
+    JsName:          SCCAPIRequestOptionsSupportedTenderTypesKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestOptionsTenderTypeStringCard
+    JsName:          SCCAPIRequestOptionsTenderTypeStringCard
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestOptionsTenderTypeStringCardOnFile
+    JsName:          SCCAPIRequestOptionsTenderTypeStringCardOnFile
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestOptionsTenderTypeStringCash
+    JsName:          SCCAPIRequestOptionsTenderTypeStringCash
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestOptionsTenderTypeStringOther
+    JsName:          SCCAPIRequestOptionsTenderTypeStringOther
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestOptionsTenderTypeStringSquareGiftCard
+    JsName:          SCCAPIRequestOptionsTenderTypeStringSquareGiftCard
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestStateKey
+    JsName:          SCCAPIRequestStateKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIRequestTenderTypeAll
+    JsName:          SCCAPIRequestTenderTypeAll
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '18446744073709551615'
+  - Name:            SCCAPIRequestTenderTypeCard
+    JsName:          SCCAPIRequestTenderTypeCard
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            SCCAPIRequestTenderTypeCardOnFile
+    JsName:          SCCAPIRequestTenderTypeCardOnFile
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            SCCAPIRequestTenderTypeCash
+    JsName:          SCCAPIRequestTenderTypeCash
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            SCCAPIRequestTenderTypeOther
+    JsName:          SCCAPIRequestTenderTypeOther
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            SCCAPIRequestTenderTypeSquareGiftCard
+    JsName:          SCCAPIRequestTenderTypeSquareGiftCard
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            SCCAPIRequestTenderTypes
+    JsName:          SCCAPIRequestTenderTypes
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIRequest.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIRequest
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - SCCAPIRequestTenderTypeAll: '18446744073709551615'
+      - SCCAPIRequestTenderTypeCard: '1'
+      - SCCAPIRequestTenderTypeCash: '2'
+      - SCCAPIRequestTenderTypeOther: '4'
+      - SCCAPIRequestTenderTypeSquareGiftCard: '8'
+      - SCCAPIRequestTenderTypeCardOnFile: '16'
+    SwiftNameFields: 
+      - All:             '18446744073709551615'
+      - Card:            '1'
+      - Cash:            '2'
+      - Other:           '4'
+      - SquareGiftCard:  '8'
+      - CardOnFile:      '16'
+  - Name:            SCCAPIResponse
+    JsName:          SCCAPIResponse
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'isEqualToAPIResponse:'
+        JsName:          isEqualToAPIResponse
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          SCCAPIResponse
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            'responseWithResponseURL:error:'
+        JsName:          responseWithResponseURLError
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    InstanceProperties: 
+      - Name:            clientTransactionID
+        JsName:          clientTransactionID
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            clientTransactionID
+          JsName:          clientTransactionID
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            error
+        JsName:          error
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            error
+          JsName:          error
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            successResponse
+        JsName:          successResponse
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isSuccessResponse
+          JsName:          isSuccessResponse
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            transactionID
+        JsName:          transactionID
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transactionID
+          JsName:          transactionID
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            userInfoString
+        JsName:          userInfoString
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            userInfoString
+          JsName:          userInfoString
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCAPIResponse
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            SCCAPIResponseClientTransactionIDKey
+    JsName:          SCCAPIResponseClientTransactionIDKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIResponseDataKey
+    JsName:          SCCAPIResponseDataKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIResponseErrorCodeKey
+    JsName:          SCCAPIResponseErrorCodeKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIResponseStateKey
+    JsName:          SCCAPIResponseStateKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIResponseStatus
+    JsName:          SCCAPIResponseStatus
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - SCCAPIResponseStatusUnknown: '0'
+      - SCCAPIResponseStatusOK: '1'
+      - SCCAPIResponseStatusError: '2'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - OK:              '1'
+      - Error:           '2'
+  - Name:            SCCAPIResponseStatusError
+    JsName:          SCCAPIResponseStatusError
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            SCCAPIResponseStatusFromString
+    JsName:          SCCAPIResponseStatusFromString
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            SCCAPIResponseStatus
+      - Type:            Interface
+        JsName:          NSString
+        WithProtocols:   
+  - Name:            SCCAPIResponseStatusKey
+    JsName:          SCCAPIResponseStatusKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIResponseStatusOK
+    JsName:          SCCAPIResponseStatusOK
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            SCCAPIResponseStatusStringError
+    JsName:          SCCAPIResponseStatusStringError
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIResponseStatusStringOK
+    JsName:          SCCAPIResponseStatusStringOK
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCAPIResponseStatusUnknown
+    JsName:          SCCAPIResponseStatusUnknown
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            SCCAPIResponseTransactionIDKey
+    JsName:          SCCAPIResponseTransactionIDKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCAPIResponse+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCAPIResponse_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCErrorCode
+    JsName:          SCCErrorCode
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - SCCErrorCodeUnknown: '0'
+      - SCCErrorCodeMissingCurrencyCode: '1'
+      - SCCErrorCodeUnsupportedCurrencyCode_Deprecated: '2'
+      - SCCErrorCodeMissingRequestClientID: '3'
+      - SCCErrorCodeInvalidRequestCallbackURL: '4'
+      - SCCErrorCodeInvalidRequestAmount: '5'
+      - SCCErrorCodeCannotPerformRequest: '6'
+      - SCCErrorCodeUnableToGenerateRequestJSON: '7'
+      - SCCErrorCodeMissingOrInvalidResponseData: '8'
+      - SCCErrorCodeMissingOrInvalidResponseJSONData: '9'
+      - SCCErrorCodeMissingOrInvalidResponseStatus: '10'
+      - SCCErrorCodeMissingOrInvalidResponseErrorCode: '11'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - MissingCurrencyCode: '1'
+      - UnsupportedCurrencyCode_Deprecated: '2'
+      - MissingRequestClientID: '3'
+      - InvalidRequestCallbackURL: '4'
+      - InvalidRequestAmount: '5'
+      - CannotPerformRequest: '6'
+      - UnableToGenerateRequestJSON: '7'
+      - MissingOrInvalidResponseData: '8'
+      - MissingOrInvalidResponseJSONData: '9'
+      - MissingOrInvalidResponseStatus: '10'
+      - MissingOrInvalidResponseErrorCode: '11'
+  - Name:            SCCErrorCodeCannotPerformRequest
+    JsName:          SCCErrorCodeCannotPerformRequest
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            SCCErrorCodeInvalidRequestAmount
+    JsName:          SCCErrorCodeInvalidRequestAmount
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            SCCErrorCodeInvalidRequestCallbackURL
+    JsName:          SCCErrorCodeInvalidRequestCallbackURL
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            SCCErrorCodeMissingCurrencyCode
+    JsName:          SCCErrorCodeMissingCurrencyCode
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            SCCErrorCodeMissingOrInvalidResponseData
+    JsName:          SCCErrorCodeMissingOrInvalidResponseData
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            SCCErrorCodeMissingOrInvalidResponseErrorCode
+    JsName:          SCCErrorCodeMissingOrInvalidResponseErrorCode
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '11'
+  - Name:            SCCErrorCodeMissingOrInvalidResponseJSONData
+    JsName:          SCCErrorCodeMissingOrInvalidResponseJSONData
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            SCCErrorCodeMissingOrInvalidResponseStatus
+    JsName:          SCCErrorCodeMissingOrInvalidResponseStatus
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            SCCErrorCodeMissingRequestClientID
+    JsName:          SCCErrorCodeMissingRequestClientID
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            SCCErrorCodeUnableToGenerateRequestJSON
+    JsName:          SCCErrorCodeUnableToGenerateRequestJSON
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            SCCErrorCodeUnknown
+    JsName:          SCCErrorCodeUnknown
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            SCCErrorCodeUnsupportedCurrencyCode_Deprecated
+    JsName:          SCCErrorCodeUnsupportedCurrencyCode_Deprecated
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            SCCErrorDomain
+    JsName:          SCCErrorDomain
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/NSError+SCCAdditions.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.NSError_SCCAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCMoney
+    JsName:          SCCMoney
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCMoney.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCMoney
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'isEqualToSCCMoney:'
+        JsName:          isEqualToSCCMoney
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCMoney.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCMoney
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          SCCMoney
+            WithProtocols:   
+      - Name:            requestDictionaryRepresentation
+        JsName:          requestDictionaryRepresentation
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCMoney+Serialization.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCMoney_Serialization
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            'moneyWithAmountCents:currencyCode:error:'
+        JsName:          moneyWithAmountCentsCurrencyCodeError
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCMoney.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCMoney
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Long
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    InstanceProperties: 
+      - Name:            amountCents
+        JsName:          amountCents
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCMoney.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCMoney
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            amountCents
+          JsName:          amountCents
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCMoney.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCMoney
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Long
+      - Name:            currencyCode
+        JsName:          currencyCode
+        Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCMoney.h'
+        Module:          
+          FullName:        SquarePointOfSaleSDK.SCCMoney
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currencyCode
+          JsName:          currencyCode
+          Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCMoney.h'
+          Module:          
+            FullName:        SquarePointOfSaleSDK.SCCMoney
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            SCCMoneyRequestDictionaryAmountKey
+    JsName:          SCCMoneyRequestDictionaryAmountKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCMoney+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCMoney_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SCCMoneyRequestDictionaryCurrencyCodeKey
+    JsName:          SCCMoneyRequestDictionaryCurrencyCodeKey
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SCCMoney+Serialization.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK.SCCMoney_Serialization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SquarePointOfSaleSDKVersionNumber
+    JsName:          SquarePointOfSaleSDKVersionNumber
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SquarePointOfSaleSDK-umbrella.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         SquarePointOfSaleSDK
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Double
+  - Name:            SquarePointOfSaleSDKVersionString
+    JsName:          SquarePointOfSaleSDKVersionString
+    Filename:        '/Users/rackner/Library/Mobile Documents/com~apple~CloudDocs/Documents/frank_custom_plugins/nativescript-square-plugin/demo/platforms/ios/build/emulator/SquarePointOfSaleSDK.framework/Headers/SquarePointOfSaleSDK-umbrella.h'
+    Module:          
+      FullName:        SquarePointOfSaleSDK
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         SquarePointOfSaleSDK
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            IncompleteArray
+      ArrayType:       
+        Type:            UChar
+...

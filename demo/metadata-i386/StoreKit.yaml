@@ -1,0 +1,2999 @@
+---
+Module:          
+  FullName:        StoreKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         StoreKit
+      IsFramework:     true
+Items:           
+  - Name:            SKCloudServiceAuthorizationStatus
+    JsName:          SKCloudServiceAuthorizationStatus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - SKCloudServiceAuthorizationStatusNotDetermined: '0'
+      - SKCloudServiceAuthorizationStatusDenied: '1'
+      - SKCloudServiceAuthorizationStatusRestricted: '2'
+      - SKCloudServiceAuthorizationStatusAuthorized: '3'
+    SwiftNameFields: 
+      - NotDetermined:   '0'
+      - Denied:          '1'
+      - Restricted:      '2'
+      - Authorized:      '3'
+  - Name:            SKCloudServiceAuthorizationStatusAuthorized
+    JsName:          SKCloudServiceAuthorizationStatusAuthorized
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            SKCloudServiceAuthorizationStatusDenied
+    JsName:          SKCloudServiceAuthorizationStatusDenied
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            SKCloudServiceAuthorizationStatusNotDetermined
+    JsName:          SKCloudServiceAuthorizationStatusNotDetermined
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            SKCloudServiceAuthorizationStatusRestricted
+    JsName:          SKCloudServiceAuthorizationStatusRestricted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            SKCloudServiceCapabilitiesDidChangeNotification
+    JsName:          SKCloudServiceCapabilitiesDidChangeNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKCloudServiceCapability
+    JsName:          SKCloudServiceCapability
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - SKCloudServiceCapabilityNone: '0'
+      - SKCloudServiceCapabilityMusicCatalogPlayback: '1'
+      - SKCloudServiceCapabilityMusicCatalogSubscriptionEligible: '2'
+      - SKCloudServiceCapabilityAddToCloudMusicLibrary: '256'
+    SwiftNameFields: 
+      - None:            '0'
+      - MusicCatalogPlayback: '1'
+      - MusicCatalogSubscriptionEligible: '2'
+      - AddToCloudMusicLibrary: '256'
+  - Name:            SKCloudServiceCapabilityAddToCloudMusicLibrary
+    JsName:          SKCloudServiceCapabilityAddToCloudMusicLibrary
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '256'
+  - Name:            SKCloudServiceCapabilityMusicCatalogPlayback
+    JsName:          SKCloudServiceCapabilityMusicCatalogPlayback
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            SKCloudServiceCapabilityMusicCatalogSubscriptionEligible
+    JsName:          SKCloudServiceCapabilityMusicCatalogSubscriptionEligible
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            SKCloudServiceCapabilityNone
+    JsName:          SKCloudServiceCapabilityNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            SKCloudServiceController
+    JsName:          SKCloudServiceController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'requestCapabilitiesWithCompletionHandler:'
+        JsName:          requestCapabilitiesWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+        Module:          
+          FullName:        StoreKit.SKCloudServiceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            SKCloudServiceCapability
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'requestPersonalizationTokenForClientToken:withCompletionHandler:'
+        JsName:          requestPersonalizationTokenForClientTokenWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+        Module:          
+          FullName:        StoreKit.SKCloudServiceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.3
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'requestStorefrontIdentifierWithCompletionHandler:'
+        JsName:          requestStorefrontIdentifierWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+        Module:          
+          FullName:        StoreKit.SKCloudServiceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+      - Name:            authorizationStatus
+        JsName:          authorizationStatus
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+        Module:          
+          FullName:        StoreKit.SKCloudServiceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Enum
+            Name:            SKCloudServiceAuthorizationStatus
+      - Name:            'requestAuthorization:'
+        JsName:          requestAuthorization
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+        Module:          
+          FullName:        StoreKit.SKCloudServiceController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            SKCloudServiceAuthorizationStatus
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            SKCloudServiceSetupActionSubscribe
+    JsName:          SKCloudServiceSetupActionSubscribe
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceSetupViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKCloudServiceSetupOptionsActionKey
+    JsName:          SKCloudServiceSetupOptionsActionKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceSetupViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKCloudServiceSetupOptionsAffiliateTokenKey
+    JsName:          SKCloudServiceSetupOptionsAffiliateTokenKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceSetupViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKCloudServiceSetupOptionsCampaignTokenKey
+    JsName:          SKCloudServiceSetupOptionsCampaignTokenKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceSetupViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKCloudServiceSetupOptionsITunesItemIdentifierKey
+    JsName:          SKCloudServiceSetupOptionsITunesItemIdentifierKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceSetupViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKCloudServiceSetupViewController
+    JsName:          SKCloudServiceSetupViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceSetupViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'loadWithOptions:completionHandler:'
+        JsName:          loadWithOptionsCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h
+        Module:          
+          FullName:        StoreKit.SKCloudServiceSetupViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h
+        Module:          
+          FullName:        StoreKit.SKCloudServiceSetupViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h
+          Module:          
+            FullName:        StoreKit.SKCloudServiceSetupViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - SKCloudServiceSetupViewControllerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h
+          Module:          
+            FullName:        StoreKit.SKCloudServiceSetupViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - SKCloudServiceSetupViewControllerDelegate
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            SKCloudServiceSetupViewControllerDelegate
+    JsName:          SKCloudServiceSetupViewControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceSetupViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'cloudServiceSetupViewControllerDidDismiss:'
+        JsName:          cloudServiceSetupViewControllerDidDismiss
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h
+        Module:          
+          FullName:        StoreKit.SKCloudServiceSetupViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.1
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SKCloudServiceSetupViewController
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            SKDownload
+    JsName:          SKDownload
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+    Module:          
+      FullName:        StoreKit.SKDownload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            contentIdentifier
+        JsName:          contentIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+        Module:          
+          FullName:        StoreKit.SKDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            contentIdentifier
+          JsName:          contentIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+          Module:          
+            FullName:        StoreKit.SKDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            contentLength
+        JsName:          contentLength
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+        Module:          
+          FullName:        StoreKit.SKDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            contentLength
+          JsName:          contentLength
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+          Module:          
+            FullName:        StoreKit.SKDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            LongLong
+      - Name:            contentURL
+        JsName:          contentURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+        Module:          
+          FullName:        StoreKit.SKDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            contentURL
+          JsName:          contentURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+          Module:          
+            FullName:        StoreKit.SKDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+      - Name:            contentVersion
+        JsName:          contentVersion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+        Module:          
+          FullName:        StoreKit.SKDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            contentVersion
+          JsName:          contentVersion
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+          Module:          
+            FullName:        StoreKit.SKDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            downloadState
+        JsName:          downloadState
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+        Module:          
+          FullName:        StoreKit.SKDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            downloadState
+          JsName:          downloadState
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+          Module:          
+            FullName:        StoreKit.SKDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            SKDownloadState
+      - Name:            error
+        JsName:          error
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+        Module:          
+          FullName:        StoreKit.SKDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            error
+          JsName:          error
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+          Module:          
+            FullName:        StoreKit.SKDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            progress
+        JsName:          progress
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+        Module:          
+          FullName:        StoreKit.SKDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            progress
+          JsName:          progress
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+          Module:          
+            FullName:        StoreKit.SKDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            timeRemaining
+        JsName:          timeRemaining
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+        Module:          
+          FullName:        StoreKit.SKDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            timeRemaining
+          JsName:          timeRemaining
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+          Module:          
+            FullName:        StoreKit.SKDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            transaction
+        JsName:          transaction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+        Module:          
+          FullName:        StoreKit.SKDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transaction
+          JsName:          transaction
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+          Module:          
+            FullName:        StoreKit.SKDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          SKPaymentTransaction
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            SKDownloadState
+    JsName:          SKDownloadState
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+    Module:          
+      FullName:        StoreKit.SKDownload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - SKDownloadStateWaiting: '0'
+      - SKDownloadStateActive: '1'
+      - SKDownloadStatePaused: '2'
+      - SKDownloadStateFinished: '3'
+      - SKDownloadStateFailed: '4'
+      - SKDownloadStateCancelled: '5'
+    SwiftNameFields: 
+      - Waiting:         '0'
+      - Active:          '1'
+      - Paused:          '2'
+      - Finished:        '3'
+      - Failed:          '4'
+      - Cancelled:       '5'
+  - Name:            SKDownloadStateActive
+    JsName:          SKDownloadStateActive
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+    Module:          
+      FullName:        StoreKit.SKDownload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            SKDownloadStateCancelled
+    JsName:          SKDownloadStateCancelled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+    Module:          
+      FullName:        StoreKit.SKDownload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            SKDownloadStateFailed
+    JsName:          SKDownloadStateFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+    Module:          
+      FullName:        StoreKit.SKDownload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            SKDownloadStateFinished
+    JsName:          SKDownloadStateFinished
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+    Module:          
+      FullName:        StoreKit.SKDownload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            SKDownloadStatePaused
+    JsName:          SKDownloadStatePaused
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+    Module:          
+      FullName:        StoreKit.SKDownload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            SKDownloadStateWaiting
+    JsName:          SKDownloadStateWaiting
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+    Module:          
+      FullName:        StoreKit.SKDownload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            SKDownloadTimeRemainingUnknown
+    JsName:          SKDownloadTimeRemainingUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h
+    Module:          
+      FullName:        StoreKit.SKDownload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Double
+  - Name:            SKErrorClientInvalid
+    JsName:          SKErrorClientInvalid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h
+    Module:          
+      FullName:        StoreKit.SKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            SKErrorCloudServiceNetworkConnectionFailed
+    JsName:          SKErrorCloudServiceNetworkConnectionFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h
+    Module:          
+      FullName:        StoreKit.SKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            SKErrorCloudServicePermissionDenied
+    JsName:          SKErrorCloudServicePermissionDenied
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h
+    Module:          
+      FullName:        StoreKit.SKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            SKErrorCloudServiceRevoked
+    JsName:          SKErrorCloudServiceRevoked
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h
+    Module:          
+      FullName:        StoreKit.SKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            SKErrorCode
+    JsName:          SKErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h
+    Module:          
+      FullName:        StoreKit.SKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - SKErrorUnknown:  '0'
+      - SKErrorClientInvalid: '1'
+      - SKErrorPaymentCancelled: '2'
+      - SKErrorPaymentInvalid: '3'
+      - SKErrorPaymentNotAllowed: '4'
+      - SKErrorStoreProductNotAvailable: '5'
+      - SKErrorCloudServicePermissionDenied: '6'
+      - SKErrorCloudServiceNetworkConnectionFailed: '7'
+      - SKErrorCloudServiceRevoked: '8'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - ClientInvalid:   '1'
+      - PaymentCancelled: '2'
+      - PaymentInvalid:  '3'
+      - PaymentNotAllowed: '4'
+      - StoreProductNotAvailable: '5'
+      - CloudServicePermissionDenied: '6'
+      - CloudServiceNetworkConnectionFailed: '7'
+      - CloudServiceRevoked: '8'
+  - Name:            SKErrorDomain
+    JsName:          SKErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h
+    Module:          
+      FullName:        StoreKit.SKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKErrorPaymentCancelled
+    JsName:          SKErrorPaymentCancelled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h
+    Module:          
+      FullName:        StoreKit.SKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            SKErrorPaymentInvalid
+    JsName:          SKErrorPaymentInvalid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h
+    Module:          
+      FullName:        StoreKit.SKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            SKErrorPaymentNotAllowed
+    JsName:          SKErrorPaymentNotAllowed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h
+    Module:          
+      FullName:        StoreKit.SKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            SKErrorStoreProductNotAvailable
+    JsName:          SKErrorStoreProductNotAvailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h
+    Module:          
+      FullName:        StoreKit.SKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            SKErrorUnknown
+    JsName:          SKErrorUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h
+    Module:          
+      FullName:        StoreKit.SKError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            SKMutablePayment
+    JsName:          SKMutablePayment
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+    Module:          
+      FullName:        StoreKit.SKPayment
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            applicationUsername
+        JsName:          applicationUsername
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+        Module:          
+          FullName:        StoreKit.SKPayment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    7.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            applicationUsername
+          JsName:          applicationUsername
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    7.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setApplicationUsername:'
+          JsName:          setApplicationUsername
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    7.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            productIdentifier
+        JsName:          productIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+        Module:          
+          FullName:        StoreKit.SKPayment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            productIdentifier
+          JsName:          productIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setProductIdentifier:'
+          JsName:          setProductIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            quantity
+        JsName:          quantity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+        Module:          
+          FullName:        StoreKit.SKPayment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            quantity
+          JsName:          quantity
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Int
+        Setter:          
+          Name:            'setQuantity:'
+          JsName:          setQuantity
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Int
+      - Name:            requestData
+        JsName:          requestData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+        Module:          
+          FullName:        StoreKit.SKPayment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            requestData
+          JsName:          requestData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+        Setter:          
+          Name:            'setRequestData:'
+          JsName:          setRequestData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            simulatesAskToBuyInSandbox
+        JsName:          simulatesAskToBuyInSandbox
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+        Module:          
+          FullName:        StoreKit.SKPayment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.3
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            simulatesAskToBuyInSandbox
+          JsName:          simulatesAskToBuyInSandbox
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.3
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setSimulatesAskToBuyInSandbox:'
+          JsName:          setSimulatesAskToBuyInSandbox
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.3
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            SKPayment
+  - Name:            SKPayment
+    JsName:          SKPayment
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+    Module:          
+      FullName:        StoreKit.SKPayment
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+      - Name:            'paymentWithProduct:'
+        JsName:          paymentWithProduct
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+        Module:          
+          FullName:        StoreKit.SKPayment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          SKProduct
+            WithProtocols:   
+      - Name:            'paymentWithProductIdentifier:'
+        JsName:          paymentWithProductIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+        Module:          
+          FullName:        StoreKit.SKPayment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            applicationUsername
+        JsName:          applicationUsername
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+        Module:          
+          FullName:        StoreKit.SKPayment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    7.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            applicationUsername
+          JsName:          applicationUsername
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    7.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            productIdentifier
+        JsName:          productIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+        Module:          
+          FullName:        StoreKit.SKPayment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            productIdentifier
+          JsName:          productIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            quantity
+        JsName:          quantity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+        Module:          
+          FullName:        StoreKit.SKPayment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            quantity
+          JsName:          quantity
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Int
+      - Name:            requestData
+        JsName:          requestData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+        Module:          
+          FullName:        StoreKit.SKPayment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            requestData
+          JsName:          requestData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            simulatesAskToBuyInSandbox
+        JsName:          simulatesAskToBuyInSandbox
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+        Module:          
+          FullName:        StoreKit.SKPayment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.3
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            simulatesAskToBuyInSandbox
+          JsName:          simulatesAskToBuyInSandbox
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+          Module:          
+            FullName:        StoreKit.SKPayment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.3
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSMutableCopying
+    Base:            NSObject
+  - Name:            SKPaymentQueue
+    JsName:          SKPaymentQueue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+    Module:          
+      FullName:        StoreKit.SKPaymentQueue
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addPayment:'
+        JsName:          addPayment
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SKPayment
+            WithProtocols:   
+      - Name:            'addTransactionObserver:'
+        JsName:          addTransactionObserver
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Id
+            WithProtocols:   
+              - SKPaymentTransactionObserver
+      - Name:            'cancelDownloads:'
+        JsName:          cancelDownloads
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          SKDownload
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'finishTransaction:'
+        JsName:          finishTransaction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SKPaymentTransaction
+            WithProtocols:   
+      - Name:            'pauseDownloads:'
+        JsName:          pauseDownloads
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          SKDownload
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'removeTransactionObserver:'
+        JsName:          removeTransactionObserver
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Id
+            WithProtocols:   
+              - SKPaymentTransactionObserver
+      - Name:            restoreCompletedTransactions
+        JsName:          restoreCompletedTransactions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'restoreCompletedTransactionsWithApplicationUsername:'
+        JsName:          restoreCompletedTransactionsWithApplicationUsername
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    7.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'resumeDownloads:'
+        JsName:          resumeDownloads
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          SKDownload
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'startDownloads:'
+        JsName:          startDownloads
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          SKDownload
+                WithProtocols:   
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            canMakePayments
+        JsName:          canMakePayments
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            defaultQueue
+        JsName:          defaultQueue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+    InstanceProperties: 
+      - Name:            transactions
+        JsName:          transactions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transactions
+          JsName:          transactions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+          Module:          
+            FullName:        StoreKit.SKPaymentQueue
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          SKPaymentTransaction
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            SKPaymentTransaction
+    JsName:          SKPaymentTransaction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+    Module:          
+      FullName:        StoreKit.SKPaymentTransaction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            downloads
+        JsName:          downloads
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+        Module:          
+          FullName:        StoreKit.SKPaymentTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            downloads
+          JsName:          downloads
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+          Module:          
+            FullName:        StoreKit.SKPaymentTransaction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          SKDownload
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            error
+        JsName:          error
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+        Module:          
+          FullName:        StoreKit.SKPaymentTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            error
+          JsName:          error
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+          Module:          
+            FullName:        StoreKit.SKPaymentTransaction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            originalTransaction
+        JsName:          originalTransaction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+        Module:          
+          FullName:        StoreKit.SKPaymentTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            originalTransaction
+          JsName:          originalTransaction
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+          Module:          
+            FullName:        StoreKit.SKPaymentTransaction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          SKPaymentTransaction
+              WithProtocols:   
+      - Name:            payment
+        JsName:          payment
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+        Module:          
+          FullName:        StoreKit.SKPaymentTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            payment
+          JsName:          payment
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+          Module:          
+            FullName:        StoreKit.SKPaymentTransaction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          SKPayment
+              WithProtocols:   
+      - Name:            transactionDate
+        JsName:          transactionDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+        Module:          
+          FullName:        StoreKit.SKPaymentTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transactionDate
+          JsName:          transactionDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+          Module:          
+            FullName:        StoreKit.SKPaymentTransaction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            transactionIdentifier
+        JsName:          transactionIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+        Module:          
+          FullName:        StoreKit.SKPaymentTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transactionIdentifier
+          JsName:          transactionIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+          Module:          
+            FullName:        StoreKit.SKPaymentTransaction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            transactionReceipt
+        JsName:          transactionReceipt
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+        Module:          
+          FullName:        StoreKit.SKPaymentTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transactionReceipt
+          JsName:          transactionReceipt
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+          Module:          
+            FullName:        StoreKit.SKPaymentTransaction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            transactionState
+        JsName:          transactionState
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+        Module:          
+          FullName:        StoreKit.SKPaymentTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transactionState
+          JsName:          transactionState
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+          Module:          
+            FullName:        StoreKit.SKPaymentTransaction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            SKPaymentTransactionState
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            SKPaymentTransactionObserver
+    JsName:          SKPaymentTransactionObserver
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+    Module:          
+      FullName:        StoreKit.SKPaymentQueue
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'paymentQueue:removedTransactions:'
+        JsName:          paymentQueueRemovedTransactions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SKPaymentQueue
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          SKPaymentTransaction
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'paymentQueue:restoreCompletedTransactionsFailedWithError:'
+        JsName:          paymentQueueRestoreCompletedTransactionsFailedWithError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SKPaymentQueue
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'paymentQueueRestoreCompletedTransactionsFinished:'
+        JsName:          paymentQueueRestoreCompletedTransactionsFinished
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SKPaymentQueue
+            WithProtocols:   
+      - Name:            'paymentQueue:updatedDownloads:'
+        JsName:          paymentQueueUpdatedDownloads
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SKPaymentQueue
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          SKDownload
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'paymentQueue:updatedTransactions:'
+        JsName:          paymentQueueUpdatedTransactions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+        Module:          
+          FullName:        StoreKit.SKPaymentQueue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SKPaymentQueue
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          SKPaymentTransaction
+                WithProtocols:   
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            SKPaymentTransactionState
+    JsName:          SKPaymentTransactionState
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+    Module:          
+      FullName:        StoreKit.SKPaymentTransaction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - SKPaymentTransactionStatePurchasing: '0'
+      - SKPaymentTransactionStatePurchased: '1'
+      - SKPaymentTransactionStateFailed: '2'
+      - SKPaymentTransactionStateRestored: '3'
+      - SKPaymentTransactionStateDeferred: '4'
+    SwiftNameFields: 
+      - Purchasing:      '0'
+      - Purchased:       '1'
+      - Failed:          '2'
+      - Restored:        '3'
+      - Deferred:        '4'
+  - Name:            SKPaymentTransactionStateDeferred
+    JsName:          SKPaymentTransactionStateDeferred
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+    Module:          
+      FullName:        StoreKit.SKPaymentTransaction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            SKPaymentTransactionStateFailed
+    JsName:          SKPaymentTransactionStateFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+    Module:          
+      FullName:        StoreKit.SKPaymentTransaction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            SKPaymentTransactionStatePurchased
+    JsName:          SKPaymentTransactionStatePurchased
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+    Module:          
+      FullName:        StoreKit.SKPaymentTransaction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            SKPaymentTransactionStatePurchasing
+    JsName:          SKPaymentTransactionStatePurchasing
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+    Module:          
+      FullName:        StoreKit.SKPaymentTransaction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            SKPaymentTransactionStateRestored
+    JsName:          SKPaymentTransactionStateRestored
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+    Module:          
+      FullName:        StoreKit.SKPaymentTransaction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            SKProduct
+    JsName:          SKProduct
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+    Module:          
+      FullName:        StoreKit.SKProduct
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            downloadable
+        JsName:          downloadable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+        Module:          
+          FullName:        StoreKit.SKProduct
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isDownloadable
+          JsName:          isDownloadable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+          Module:          
+            FullName:        StoreKit.SKProduct
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            downloadContentLengths
+        JsName:          downloadContentLengths
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+        Module:          
+          FullName:        StoreKit.SKProduct
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            downloadContentLengths
+          JsName:          downloadContentLengths
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+          Module:          
+            FullName:        StoreKit.SKProduct
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSNumber
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            downloadContentVersion
+        JsName:          downloadContentVersion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+        Module:          
+          FullName:        StoreKit.SKProduct
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            downloadContentVersion
+          JsName:          downloadContentVersion
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+          Module:          
+            FullName:        StoreKit.SKProduct
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            localizedDescription
+        JsName:          localizedDescription
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+        Module:          
+          FullName:        StoreKit.SKProduct
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            localizedDescription
+          JsName:          localizedDescription
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+          Module:          
+            FullName:        StoreKit.SKProduct
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            localizedTitle
+        JsName:          localizedTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+        Module:          
+          FullName:        StoreKit.SKProduct
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            localizedTitle
+          JsName:          localizedTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+          Module:          
+            FullName:        StoreKit.SKProduct
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            price
+        JsName:          price
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+        Module:          
+          FullName:        StoreKit.SKProduct
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            price
+          JsName:          price
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+          Module:          
+            FullName:        StoreKit.SKProduct
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDecimalNumber
+              WithProtocols:   
+      - Name:            priceLocale
+        JsName:          priceLocale
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+        Module:          
+          FullName:        StoreKit.SKProduct
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            priceLocale
+          JsName:          priceLocale
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+          Module:          
+            FullName:        StoreKit.SKProduct
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSLocale
+              WithProtocols:   
+      - Name:            productIdentifier
+        JsName:          productIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+        Module:          
+          FullName:        StoreKit.SKProduct
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            productIdentifier
+          JsName:          productIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h
+          Module:          
+            FullName:        StoreKit.SKProduct
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            SKProductsRequest
+    JsName:          SKProductsRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+    Module:          
+      FullName:        StoreKit.SKProductsRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithProductIdentifiers:'
+        JsName:          initWithProductIdentifiers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+        Module:          
+          FullName:        StoreKit.SKProductsRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSSet
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+        Module:          
+          FullName:        StoreKit.SKProductsRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+          Module:          
+            FullName:        StoreKit.SKProductsRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - SKProductsRequestDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+          Module:          
+            FullName:        StoreKit.SKProductsRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - SKProductsRequestDelegate
+    StaticProperties: 
+    Protocols:       
+    Base:            SKRequest
+  - Name:            SKProductsRequestDelegate
+    JsName:          SKProductsRequestDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+    Module:          
+      FullName:        StoreKit.SKProductsRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'productsRequest:didReceiveResponse:'
+        JsName:          productsRequestDidReceiveResponse
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+        Module:          
+          FullName:        StoreKit.SKProductsRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SKProductsRequest
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          SKProductsResponse
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - SKRequestDelegate
+  - Name:            SKProductsResponse
+    JsName:          SKProductsResponse
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+    Module:          
+      FullName:        StoreKit.SKProductsRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            invalidProductIdentifiers
+        JsName:          invalidProductIdentifiers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+        Module:          
+          FullName:        StoreKit.SKProductsRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            invalidProductIdentifiers
+          JsName:          invalidProductIdentifiers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+          Module:          
+            FullName:        StoreKit.SKProductsRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            products
+        JsName:          products
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+        Module:          
+          FullName:        StoreKit.SKProductsRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            products
+          JsName:          products
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+          Module:          
+            FullName:        StoreKit.SKProductsRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          SKProduct
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            SKReceiptPropertyIsExpired
+    JsName:          SKReceiptPropertyIsExpired
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKReceiptRefreshRequest.h
+    Module:          
+      FullName:        StoreKit.SKReceiptRefreshRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKReceiptPropertyIsRevoked
+    JsName:          SKReceiptPropertyIsRevoked
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKReceiptRefreshRequest.h
+    Module:          
+      FullName:        StoreKit.SKReceiptRefreshRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKReceiptPropertyIsVolumePurchase
+    JsName:          SKReceiptPropertyIsVolumePurchase
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKReceiptRefreshRequest.h
+    Module:          
+      FullName:        StoreKit.SKReceiptRefreshRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKReceiptRefreshRequest
+    JsName:          SKReceiptRefreshRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKReceiptRefreshRequest.h
+    Module:          
+      FullName:        StoreKit.SKReceiptRefreshRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithReceiptProperties:'
+        JsName:          initWithReceiptProperties
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKReceiptRefreshRequest.h
+        Module:          
+          FullName:        StoreKit.SKReceiptRefreshRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    7.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            receiptProperties
+        JsName:          receiptProperties
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKReceiptRefreshRequest.h
+        Module:          
+          FullName:        StoreKit.SKReceiptRefreshRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    7.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            receiptProperties
+          JsName:          receiptProperties
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKReceiptRefreshRequest.h
+          Module:          
+            FullName:        StoreKit.SKReceiptRefreshRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    7.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Id
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            SKRequest
+  - Name:            SKRequest
+    JsName:          SKRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKRequest.h
+    Module:          
+      FullName:        StoreKit.SKRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cancel
+        JsName:          cancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKRequest.h
+        Module:          
+          FullName:        StoreKit.SKRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            start
+        JsName:          start
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKRequest.h
+        Module:          
+          FullName:        StoreKit.SKRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKRequest.h
+        Module:          
+          FullName:        StoreKit.SKRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKRequest.h
+          Module:          
+            FullName:        StoreKit.SKRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - SKRequestDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKRequest.h
+          Module:          
+            FullName:        StoreKit.SKRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - SKRequestDelegate
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            SKRequestDelegate
+    JsName:          SKRequestDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKRequest.h
+    Module:          
+      FullName:        StoreKit.SKRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'request:didFailWithError:'
+        JsName:          requestDidFailWithError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKRequest.h
+        Module:          
+          FullName:        StoreKit.SKRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SKRequest
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'requestDidFinish:'
+        JsName:          requestDidFinish
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKRequest.h
+        Module:          
+          FullName:        StoreKit.SKRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SKRequest
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            SKStoreProductParameterAdvertisingPartnerToken
+    JsName:          SKStoreProductParameterAdvertisingPartnerToken
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h
+    Module:          
+      FullName:        StoreKit.SKStoreProductViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKStoreProductParameterAffiliateToken
+    JsName:          SKStoreProductParameterAffiliateToken
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h
+    Module:          
+      FullName:        StoreKit.SKStoreProductViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKStoreProductParameterCampaignToken
+    JsName:          SKStoreProductParameterCampaignToken
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h
+    Module:          
+      FullName:        StoreKit.SKStoreProductViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKStoreProductParameterITunesItemIdentifier
+    JsName:          SKStoreProductParameterITunesItemIdentifier
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h
+    Module:          
+      FullName:        StoreKit.SKStoreProductViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKStoreProductParameterProviderToken
+    JsName:          SKStoreProductParameterProviderToken
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h
+    Module:          
+      FullName:        StoreKit.SKStoreProductViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKStoreProductViewController
+    JsName:          SKStoreProductViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h
+    Module:          
+      FullName:        StoreKit.SKStoreProductViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'loadProductWithParameters:completionBlock:'
+        JsName:          loadProductWithParametersCompletionBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h
+        Module:          
+          FullName:        StoreKit.SKStoreProductViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h
+        Module:          
+          FullName:        StoreKit.SKStoreProductViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h
+          Module:          
+            FullName:        StoreKit.SKStoreProductViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - SKStoreProductViewControllerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h
+          Module:          
+            FullName:        StoreKit.SKStoreProductViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - SKStoreProductViewControllerDelegate
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            SKStoreProductViewControllerDelegate
+    JsName:          SKStoreProductViewControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h
+    Module:          
+      FullName:        StoreKit.SKStoreProductViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'productViewControllerDidFinish:'
+        JsName:          productViewControllerDidFinish
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h
+        Module:          
+          FullName:        StoreKit.SKStoreProductViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SKStoreProductViewController
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            SKStoreReviewController
+    JsName:          SKStoreReviewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreReviewController.h
+    Module:          
+      FullName:        StoreKit.SKStoreReviewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+      - Name:            requestReview
+        JsName:          requestReview
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKStoreReviewController.h
+        Module:          
+          FullName:        StoreKit.SKStoreReviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            SKStorefrontIdentifierDidChangeNotification
+    JsName:          SKStorefrontIdentifierDidChangeNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h
+    Module:          
+      FullName:        StoreKit.SKCloudServiceController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            SKTerminateForInvalidReceipt
+    JsName:          SKTerminateForInvalidReceipt
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKReceiptRefreshRequest.h
+    Module:          
+      FullName:        StoreKit.SKReceiptRefreshRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+...
