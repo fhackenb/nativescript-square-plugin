@@ -17,15 +17,15 @@ export class HelloWorldModel extends Observable {
     console.log(this.squarePlugin.getVersion());
     
 
-    let count = 0;
-    setInterval( () => {
-      count++;
-      console.log("count now:", count);
-      if(count % 40 == 0){
-        console.log("~~~~~~~~~ invoking now");
-        this.squareChargeCustomer();
-      }
-    },1000);
+    // let count = 0;
+    // setInterval( () => {
+    //   count++;
+    //   console.log("count now:", count);
+    //   if(count % 40 == 0){
+    //     console.log("~~~~~~~~~ invoking now");
+    this.squareChargeCustomer();
+    //   }
+    // },1000);
 
 
     handleOpenURL((appURL: AppURL) => {
@@ -39,7 +39,12 @@ export class HelloWorldModel extends Observable {
 
   squareChargeCustomer(){
     console.log("invoke square charge cust");
-    // this.squarePlugin.chargeCustomer(amount, note, clientId, scheme);
+    let amount = 100;
+    let note = "";
+    let clientId = "";
+    let scheme = "";
+    let currency = "CAD";
+    // this.squarePlugin.chargeCustomer(amount, note, clientId, scheme, currency);
   }
 
 }

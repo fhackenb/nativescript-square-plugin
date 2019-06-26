@@ -35,10 +35,10 @@ export class SquarePlugin extends Common {
     }
 
 
-    chargeCustomer(amount: number, note: string = "", clientId: string = "", urlScheme: string = ""): boolean {
+    chargeCustomer(amount: number, note: string = "", clientId: string = "", urlScheme: string = "", currencyCode = "USD"): boolean {
         let cents = amount*100;
         let callbackUrl = NSURL.URLWithString(urlScheme);
-        this.money = SCCMoney.moneyWithAmountCentsCurrencyCodeError(cents, "USD");
+        this.money = SCCMoney.moneyWithAmountCentsCurrencyCodeError(cents, currencyCode);
         SCCAPIRequest.setClientID(clientId);
         let request = SCCAPIRequest.requestWithCallbackURLAmountUserInfoStringMerchantIDNotesCustomerIDSupportedTenderTypesClearsDefaultFeesReturnAutomaticallyAfterPaymentError(callbackUrl, this.money, null, null, note, null, SCCAPIRequestTenderTypes.All, false, true );
         let success = SCCAPIConnection.performRequestError(request);

@@ -15,7 +15,7 @@ export class Common extends Observable {
     return "Hello, NS";
   }
 
-  public chargeCustomer(amount: number): boolean{
+  public chargeCustomer(amount: number, note: string = "", clientId: string = "", urlScheme: string = "", currencyCode = "USD"): boolean{
     return false;
   }
 
